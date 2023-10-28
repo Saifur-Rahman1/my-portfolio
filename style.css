@@ -9,10 +9,13 @@
 body {
   font-family: "Poppins", sans-serif;
 }
+
 .bg{
-  height: 110%;
-  width: 100%;
+  height: 815px;
+  width: 1520px;
 }
+
+
 header {
   height: 100vh;
 }
@@ -49,8 +52,8 @@ header {
 
 .menu-items a {
   text-decoration: none;
-  color: #979797;
-  font-size: 1.2rem;
+  color: #000000;
+  font-size: 1.4rem;
   padding: 0.3rem;
 }
 
@@ -92,13 +95,13 @@ header {
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 2rem;
-  border: 3px solid #07374a;
+  border: 3px solid #0f6f62;
   border-radius: 50%;
 }
 
 .angle-down-icon a {
   text-decoration: none;
-  color: #07374a;
+  color: #0b6a5c;
   padding: 1rem;
 }
 
@@ -525,6 +528,11 @@ header {
   html {
     font-size: 60%;
   }
+  
+  .bg{
+      height: 700px;
+      width: 300px;
+  }
 
   .about-content .left-content {
     flex-basis: 100%;
@@ -658,6 +666,11 @@ header {
 @media (min-width: 769px) and (max-width: 1200px) {
   html {
     font-size: 70%;
+  }
+
+  .bg{
+    height: 110%;
+    width: 100%;
   }
 
   .about-content .left-content {
